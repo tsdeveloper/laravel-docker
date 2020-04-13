@@ -1,0 +1,6 @@
+[
+    {
+        "model-name": "Category",
+        "resource-file": "categories.json"
+    }
+]
