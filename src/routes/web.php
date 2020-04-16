@@ -60,8 +60,7 @@ Route::group([
 });
 
 Route::get('email-test', function(){
-	$details['email'] = 'ts.analista@gmail.com';
-
+     $details['email'] = 'evulgation@31755155.com';
 
     dispatch(new SendEmailJob($details));
 

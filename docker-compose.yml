@@ -15,7 +15,7 @@ services:
         - ./mysql:/var/lib/mysql
       environment:
         - MYSQL_ROOT_PASSWORD=rootpass
-        - MYSQL_DATABASE=laraveldb
+        - MYSQL_DATABASE=dockerdb
         - MYSQL_USER=laraveluser
         - MYSQL_PASSWORD=laravelpass
         - SERVICE_TAGS:dev

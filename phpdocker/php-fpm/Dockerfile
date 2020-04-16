@@ -11,3 +11,5 @@ RUN apt-get update \
 
 # ADD  . "/application"
 RUN chmod 777 -R  "/application"
+RUN chmod 777 -R  "/application"
+
